@@ -5,7 +5,7 @@ import qrcode
 import io
 import base64
 
-# Основне вікно
+
 root = tk.Tk()
 root.title("Генератор QR-кодів")
 root.geometry("400x530")
@@ -60,7 +60,7 @@ def copy_link():
     else:
         messagebox.showwarning("Увага", "Немає посилання для копіювання.")
 
-# Інтерфейс
+
 title = tk.Label(root, text="QR Generator", font=("Helvetica", 18, "bold"), bg="#f5f5f5", fg="#333")
 title.pack(pady=10)
 
